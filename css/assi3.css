@@ -1,0 +1,686 @@
+body{
+    font-family: "Rubik",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+.reset{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.display-flex{
+    display: flex;
+}
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.position-realtive{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.justify-spacebetween{
+    justify-content: space-between;  
+}
+.justify-center{
+    justify-content: center;   
+}
+.align-center{
+    align-items: center;
+}
+.state-section{
+    width: 83%;
+}
+.no-list-style{
+    list-style: none;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.button-hover-bg-none:hover{
+    cursor: pointer;
+    background: none;
+    border-color: #fff;
+
+
+}
+.justify-start-flex{
+    justify-content: flex-start;
+}
+
+
+header{
+    background-image: url('https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 60rem;
+    background-position: center;
+}
+
+header nav{
+    width: 84rem;
+    /* background-color: #263B5C; */  
+}
+
+.container{
+    /* background-color:#263B5C; */
+    height: 6rem;
+    color: white;
+    width: 79rem
+}
+.contacts{
+    width: 53rem;
+}
+
+header nav ul{
+    width: 38rem;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li:hover{
+    color:aqua;
+}
+header nav .container button{
+    width: 12rem;
+    height: 4rem;
+    text-align: center;
+    background-color: #F15B43;
+    color: #fff;
+    border-radius: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    transition: .5s;
+    font-size: 1.1rem;
+}
+/* header nav .container button:hover{
+    /* background-color: #263B5C; 
+    background: none;
+    border-color: #fff;
+} */
+
+header main{
+    width: 100%;
+    height: fit-content;
+    color: azure;
+    background: none;
+    top:17rem;
+}
+header main .container{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    background: none;
+}
+header main .container div{
+    height: 100%;
+    width: 28rem;
+    /* background-color: aliceblue; */
+    /* color: black; */
+    background: none;
+}
+header main .container div h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    background: none;
+}
+header main .container div p{
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+header main .container button{
+    background: #65C9BB;
+    color: #fff;
+    border-radius: 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    height: 2rem;
+    height: 5rem;
+    width: 12rem;
+    font-size: 1rem;
+    transition: .5s;
+
+}
+/* header main .container button:hover{
+    background:none;
+    border-color:white ;
+} */
+article{
+    margin-block:4rem ;
+}
+article .second-section{
+    height: fit-content;
+    width: 67rem;
+}
+article .second-section img{
+    width: 29rem;
+}
+article .second-section section{
+    width: 32rem;
+}
+article .second-section section .text .text1{
+    color: #65C9BB;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+article .second-section section .text .text2{
+    color: #263B5C;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+article .second-section section .text .text3{
+    color:#777777;
+    font-size: 1.1rem;
+}
+article .second-section section .buttons button,.but1{
+    background-color: #F15B43;
+    color: #fff;
+    padding: auto;
+    font-size: 1.1rem;
+    border-radius: 0px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid transparent;
+    display: inline-block;
+    height: 5rem;
+    width: 12rem;
+    transition: .5s;
+
+}
+article .second-section section .buttons .but2{
+    background-color: white;
+    color: #F15B43;
+    border-color: #F15B43;
+    transition: color .5s linear;
+    transition: all .5s linear;
+}
+
+
+article .second-section section .buttons .but1:hover{ 
+    background-color: white;
+    color: #F15B43;
+    border-color: #F15B43;
+    cursor: pointer;
+}
+article .second-section section .buttons .but2:hover{
+    background-color:#F15B43;
+    color: white;
+    border-color: #F15B43;
+    cursor: pointer;
+}
+
+.cards{
+    width: 27rem;
+    margin-inline-end: 1.5rem;
+    height: 30rem;
+    background-color: #F4F2F1;
+
+}
+.cards img{
+    width: 27rem;
+}
+.cards .text{
+    padding-inline: 1rem;
+}
+
+.cards h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: all .3s ease-out 0s;
+    color:#263B5C;
+}
+.cards h3:hover{
+    color:#F15B43;
+    cursor: pointer;
+}
+.cards p{
+    color:#777777;
+
+}
+.cards .price{
+    width: 25rem;
+    align-items: center;
+}
+.cards .price1 p{
+    color:#65C9BB;
+    display: inline-block;
+    margin-right: 2rem;
+}
+.cards .price1 span{
+    color: #263B5C;
+}
+.cards .but1{
+    width: 9rem;
+    height: 3.5rem;
+    margin-inline-end: 1rem;
+}
+
+.cards .but1:hover{
+    background-color: white;
+    color: #F15B43;
+    border-color: #F15B43;
+    cursor: pointer;
+}
+.update-section{
+    justify-content: center;
+}
+.update-section .text{
+    margin-bottom: 2rem;
+}
+.how-help{
+    background-image: url("https://preview.colorlib.com/theme/charitee/assets/img/gallery/section-bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 84rem;
+    height: 35rem;
+    padding-block: 4rem;
+    margin-block-end: 3rem;
+}
+.how-help .container{
+    height: inherit;
+    
+}
+.how-help .text{
+    height: 12rem;
+    
+}
+.how-help .text .text1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.how-help .text .text2{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.how-help .cont-services{
+    width: 68rem;
+}
+.how-help .services{
+    align-items: center;
+    width: 25rem;
+    text-align: center;
+}
+.how-help .services .service-name{
+   font-size: 1.8rem;
+   font-weight: 600;
+}
+.how-help .services .explain{
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+.text-cards .text{
+    width: 22rem;
+    height: 23rem;
+}
+.text-cards .text .text1{
+    color: #65C9BB;
+    font-weight: 500;
+}
+.text-cards .text .text2{
+    color:#263B5C;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+.text-cards .special{
+    text-decoration: underline;
+    color: #F15B43;
+    transition: .5s;
+}
+.text-cards .special:hover{
+    font-size: larger;
+}
+footer{
+    background-color: #263B5C;
+    color:#fff;
+    height: 36rem;
+}
+.footer-container{
+    width: 74rem;
+    height: 30rem;
+}
+.footer-container .main-footer{
+    height: 30rem;
+    margin-bottom: 4rem;
+    border-bottom: #F4F2F1 1px solid;
+}
+.eq-wh{
+    height: 23rem;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+/* hr{
+    
+    border-top: 1px rgb(218, 205, 205,.0.8) solid;
+    width: 74rem;
+} */
+.footer-container .main-text{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer-container .but1{
+    width: 9rem;
+    height: 3rem;
+}
+.footer-container .but1:hover{
+    background-color:#263B5C;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+
+}
+footer .footer-container .main-footer i{
+
+    border: 15px solid transparent;
+    
+
+}
+
+iframe{
+        
+    /* position: absolute; */
+    height: 40rem;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+    cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+    touch-action: pan-x pan-y;
+
+
+}
+
+    .icon-container{
+        width: 15rem;
+    }
+    .icon-container p{
+        width: 2rem; 
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 20px auto; 
+        border-width: 5rem;
+        font-size: 1.5rem; 
+        color: white;
+    }
+
+    .icon-container p  .fa-facebook {
+
+        border: 12px solid blue; 
+        background-color: blue;
+    }
+    .icon-container p .fa-linkedin {
+       
+        border: 12px solid  rgb(30, 146, 212);
+        background-color: rgb(30, 146, 212);
+    }
+    .icon-container p  .fa-instagram {
+        
+        border: 12px solid #E1306C; 
+        background-color: #E1306C;
+    }
+    .icon-container p .fa-youtube {
+       
+        border: 12px solid red ;
+        background-color: red;
+    }
+
+    footer .footer-container .cop{
+        text-align: center;
+        width: inherit;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+
+    header{
+        background-image: url('https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg.webp');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        width: 27rem;
+        height: 40rem;
+        background-position: center;
+    }
+
+    header nav{
+        width: 17rem;
+        /* background-color: #263B5C; */  
+        justify-content: flex-start;
+        height: 12rem;
+        text-align: start;
+        justify-content: flex-start;
+    }
+    
+    header nav .container{
+        /* background-color:#263B5C; */
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+       
+    }
+    header nav .container .contacts{
+        width: 12rem;
+        font-size: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+}  
+    header nav ul{
+        font-size: .8rem;
+        width: 12rem;
+        font-weight: 400;
+        text-align: left;
+        padding: 0;
+        display: inline-block;
+
+    }
+    header nav ul li{
+        margin-bottom: .5rem;
+    }
+    header nav .container button:hover{
+        /* background-color: #263B5C; */
+        background: none;
+        border-color: #fff;
+    }
+
+    header main{
+        width: 23rem;
+        height: fit-content;
+        color: azure;
+        background: none;
+        top:11rem;
+    }
+    header main .container{
+        width: 80%;
+        height: fit-content;
+        margin: auto;
+        background: none;
+        margin-top: 6rem;
+    }
+    header main .container div{
+        height: 100%;
+        width: 28rem;
+        /* background-color: aliceblue; */
+        /* color: black; */
+        background: none;
+    }
+    header main .container div h1{
+        font-size: 2rem;
+        margin-bottom: .5rem;
+        background: none;
+    }
+
+    article .second-section{
+        flex-direction: column;
+    }
+
+    article{
+        margin-block:2rem ;
+    }
+    article .second-section{
+        height: fit-content;
+        width: 22rem;
+    }
+    article .second-section img{
+        width: 22rem;
+    }
+    article .second-section section{
+        width: 22rem;
+    }
+    article .second-section section .text .text1{
+        color: #65C9BB;
+        font-size: 1rem;
+        margin-block: 1.5rem;
+    }
+    article .second-section section .text .text2{
+        color: #263B5C;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    article .second-section section .text .text3{
+        color:#777777;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+    }
+    article .second-section section .buttons button{
+        width: 10rem;
+    }
+    article .second-section section .buttons .but1:hover{
+        background-color: white;
+        color: #F15B43;
+        border-color: #F15B43;
+        cursor: pointer;
+    }
+    article .second-section section .buttons .but2:hover{
+        background-color:#F15B43;
+        color: white;
+        border-color: #F15B43;
+        cursor: pointer;
+    }
+    article .quir2{
+        flex-direction: column-reverse;
+    }
+    
+
+    .cards-section{
+        flex-direction: column;
+        height: fit-content;
+        width: 22rem;
+    }
+    .cards{
+        height: fit-content;
+        width: 22rem;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+    .cards img{
+        width: 22rem;
+    }
+    .cards .price{
+        align-items: center;
+        width: 21rem;
+    }
+     .q-hide{
+        display: none;
+    }
+    .how-help{
+        width: 26rem;
+        margin-bottom: 1rem;
+    }
+    .how-help .cont-services{
+        width: 21rem;
+    }
+    .how-help .container{
+        width: 21rem;
+    }
+
+    .text-cards{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .text-cards .text{
+        height: 10rem;
+    }
+
+    iframe{
+        
+        /* position: absolute; */
+        height: 20rem;
+        width: 100%;
+        padding: 0px;
+        border-width: 0px;
+        margin: 0px;
+        cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+        touch-action: pan-x pan-y;
+    
+    
+    }
+    footer{
+        flex-direction: column;
+        width: 25rem;
+        height: fit-content;
+        justify-content: flex-start;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 20rem;
+        height: fit-content;
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+    .footer-container .main-footer{
+        flex-direction: column;
+        height: 67rem;
+        margin: 0;
+        justify-content: flex-start;
+        padding: 0rem;
+        align-items: normal;
+        border-bottom: #F4F2F1 1px solid;
+        box-sizing: border-box;
+    }
+    .footer-container .main-footer .main-text{
+        border-bottom:white 1px solid  ;
+    }
+    footer .footer-container .copyr{
+        width: 22rem;
+    }
+   
+    footer .copyr {
+        width: 16rem;
+        text-align: center;
+        padding-inline: 3rem;
+        font-size: 1rem;
+
+        }
+
+        
+   
+}
+
+
+
